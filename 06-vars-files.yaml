@@ -1,6 +1,6 @@
 # calling var.yaml, it consisted some variables with data
 
-- nam: calling variables from var.yaml
+- name: calling variables from var.yaml
   hosts: local
   connection: local
   vars_files:
