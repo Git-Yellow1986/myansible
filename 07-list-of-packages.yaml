@@ -1,0 +1,12 @@
+- name: list of packages in local system
+  hosts: local
+  connection: local
+  tasks:
+
+  - name: list of packages
+    debug:
+      msg: "{{item}}"
+    loop:
+    - nginx
+    - mysql
+    - postfix
