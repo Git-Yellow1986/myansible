@@ -22,4 +22,4 @@
     loop:
       - nginx
       #- mysqld # better to remove it because mysql service differ
-      - git
+      #- git
