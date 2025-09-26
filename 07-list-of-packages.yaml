@@ -5,7 +5,7 @@
 
   - name: list of packages
     debug:
-      msg: "{{item}}"
+      msg: "This is {{item}}"
     loop:
     - nginx
     - mysql
