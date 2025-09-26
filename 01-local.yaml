@@ -1,0 +1,7 @@
+- name: local server
+  hosts: localhosts
+  tasks:
+  - name: print msg
+    ansible.builtin.debug:
+      msg: "This is matthews from usa"
+      
