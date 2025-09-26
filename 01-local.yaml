@@ -1,6 +1,6 @@
 - name: local server
-  hosts: localhosts
-  connections: localhosts
+  hosts: localhost
+  connections: localhost
   tasks:
   - name: print msg
     ansible.builtin.debug:
