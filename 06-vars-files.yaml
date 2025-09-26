@@ -1,0 +1,13 @@
+# calling var.yaml, it consisted some variables with data
+
+- nam: calling variables from var.yaml
+  hosts: local
+  connection: local
+  vars-vars_files:
+  - vars.yaml
+  tasks:
+
+  - name: calling var.yaml file
+    ansible.builtin.debug:
+      msg: "Name= {{NAME}}, Place= {{PLACE}}, PIN_CODE= {{PIN_CODE}}
+  
