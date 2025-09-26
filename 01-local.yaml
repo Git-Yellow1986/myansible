@@ -1,4 +1,5 @@
-# ansible-playbook 01-local.yaml
+# RUN -ansible-playbook 01-local.yaml
+# No variable and no ip address only local
 
 - name: local server
   hosts: localhost

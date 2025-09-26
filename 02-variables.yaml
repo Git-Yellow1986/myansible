@@ -1,0 +1,11 @@
+- name: print the variables
+  hosts: localhost
+  vars:
+    NAME: "Matthews"
+    PLACE: "Hyderabad"
+    PIN_CODE: "500089"
+  tasks:
+
+  - name: print above info by using variables
+    ansible.builtin.debug:
+      msg: "Name is: {{NAME}}, Place is: {{PLACE}}, Pincode: {{PIN_CODE}}"
