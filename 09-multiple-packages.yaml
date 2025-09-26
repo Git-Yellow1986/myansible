@@ -10,9 +10,9 @@
       state: present
 
     loop:
-    - nginx
-    - mysql
-    - git
+     - nginx
+     - mysql
+     - git
 
   - name: Start & Enable Services
     ansible.builtin.service:
@@ -20,7 +20,6 @@
       state: started
       enabled: yes
     loop:
-    - nginx
-    - mysql
-    - git
-    
+      - nginx
+      - mysql
+      - git
