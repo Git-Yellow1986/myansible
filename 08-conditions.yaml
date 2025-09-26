@@ -5,6 +5,7 @@
   - name: my_number
     prompt: "Enter Any number"
     private: false
+  tasks:
 
   - name: enter the number if less than 0
     ansible.builtin.debug:
