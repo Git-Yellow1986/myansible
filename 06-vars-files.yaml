@@ -4,7 +4,7 @@
   hosts: local
   connection: local
   vars_files:
-  - vars.yaml
+  - vars1.yaml
   tasks:
 
   - name: calling var.yaml file
