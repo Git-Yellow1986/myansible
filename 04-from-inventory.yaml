@@ -1,0 +1,9 @@
+# calling web from inventory file
+
+- name: display message 
+  hosts: web
+  tasks:
+
+  - name: display message
+    ansible.builtin.debug:
+      msg: "This is Matthews from USA"
