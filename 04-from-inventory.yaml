@@ -1,7 +1,8 @@
 # calling web from inventory file
 
 - name: display message 
-  hosts: web
+  hosts: local
+  connection: local
   tasks:
 
   - name: display message
