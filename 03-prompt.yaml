@@ -3,10 +3,13 @@
   vars_prompt:
   - name: NAME
     prompt: "Enter Your Name"
-  - place: PLACE
+    private: no
+  - name: PLACE
     prompt: "Enter your Place"
+    private: no
   - name: PIN_CODE
     prompt: "Enter your Pincode"
+    private: no
   tasks:
   - name: print above inputs
     ansible.builtin.debug:
