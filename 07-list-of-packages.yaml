@@ -1,6 +1,7 @@
 - name: list of packages in local system
   hosts: local
   connection: local
+  become: yes
   tasks:
 
   - name: list of packages
