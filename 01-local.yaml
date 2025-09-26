@@ -1,3 +1,5 @@
+# ansible-playbook 01-local.yaml
+
 - name: local server
   hosts: localhost
   tasks:
