@@ -9,5 +9,5 @@
 
   - name: calling var.yaml file
     ansible.builtin.debug:
-      msg: "Name= {{NAME}}, Place= {{PLACE}}, PIN_CODE= {{PIN_CODE}}
+      msg: "Name= {{NAME}}, Place= {{PLACE}}, PIN_CODE= {{PIN_CODE}}"
   
