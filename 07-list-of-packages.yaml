@@ -4,8 +4,11 @@
   tasks:
 
   - name: list of packages
-    debug:
-      msg: "This is {{item}}"
+    ansible.builtin.package:
+      name: "{{ item }}"
+      state: present
+    # debug:
+    #   msg: "This is {{item}}"
     loop:
     - nginx
     - mysql
