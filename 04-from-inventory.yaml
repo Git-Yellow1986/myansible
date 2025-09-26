@@ -4,6 +4,8 @@
 # [local]
 #localhost ansible_connection=local (in inventory file)
 
+# RUN command: ansible-playbook -i inventory1.ini 04-from-inventory.yaml
+
 - name: display message 
   hosts: local
   connection: local
