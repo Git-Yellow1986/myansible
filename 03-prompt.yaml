@@ -8,8 +8,7 @@
   - name: PIN_CODE
     prompt: "Enter your Pincode"
   tasks:
-
-    - name: print above inputs
-      ansible.builtin.debug:
-        msg: "Name = {{NAME}}, Place = {{PLACE}}, Pincode = {{PIN_CODE}"
+  - name: print above inputs
+    ansible.builtin.debug:
+      msg: "Name = {{NAME}}, Place = {{PLACE}}, Pincode = {{PIN_CODE}"
       
