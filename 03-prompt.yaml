@@ -1,3 +1,6 @@
+# by using input prompt with variable -SUCCESS
+# ansible-playbook 03-prompt.yaml
+
 - name: Display info by using promp (input)
   hosts: localhost
   vars_prompt:
