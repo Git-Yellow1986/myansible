@@ -13,5 +13,5 @@
   tasks:
   - name: print above inputs
     ansible.builtin.debug:
-      msg: "Name = {{NAME}}, Place = {{PLACE}}, Pincode = {{PIN_CODE}"
+      msg: "Name = {{NAME}}, Place = {{PLACE}}, Pincode = {{PIN_CODE}}"
       
