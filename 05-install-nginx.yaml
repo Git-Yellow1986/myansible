@@ -1,8 +1,7 @@
-- name: install nginx in local system
+- name: install nginx in local 
   hosts: local
   connection: local
   become: yes
-  connections: local
   tasks:
 
   - name: install nginx
