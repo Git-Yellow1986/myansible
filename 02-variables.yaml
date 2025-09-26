@@ -1,3 +1,6 @@
+# RUN: ansible-playbook 02-variables.yaml
+# Only variables 
+
 - name: print the variables
   hosts: localhost
   vars:
