@@ -6,14 +6,14 @@
     prompt: "Enter Any number"
     private: no
 
-  - name: Is it number is greater than or less than
+  - name: Is it greater than or less than
     ansible.builtin.debug:
       msg: "The given number is {{ number }} greater then 0 "
     when: number | int >= 10
 
   - name: Is it number is greater than or less than
     ansible.builtin.debug:
-      msg: "The given number is {{ number }} less then 0 "
+      msg: "The given {{ number }} less then 0 "
     when: number | int <=
 
   
