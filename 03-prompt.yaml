@@ -1,0 +1,15 @@
+- name: Display info by using promp (input)
+  hosts: localhost
+  vars_prompt:
+  - name: NAME
+    prompt: "Enter Your Name"
+  - place: PLACE
+    prompt: "Enter your Place"
+  - name: PIN_CODE
+    prompt: "Enter your Pincode"
+  tasks:
+
+  - name: print above inputs
+    ansible.builtin.debug:
+      msg: "Name = {{NAME}}, Place = {{PLACE}}, Pincode = {{PIN_CODE}"
+      
