@@ -1,4 +1,8 @@
 # calling web from inventory file
+# if you want to assign the connection here , connection is local
+# if you not assign the connection: local , you should assign connection in inventory file as
+# [local]
+#localhost ansible_connection=local (in inventory file)
 
 - name: display message 
   hosts: local
