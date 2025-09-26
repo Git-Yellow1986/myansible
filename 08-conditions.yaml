@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_prompt: # enter number from command prompt
-  - name: number
+  - name: my_number
     prompt: "Enter Any number"
     private: no
 
